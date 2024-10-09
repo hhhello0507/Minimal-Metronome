@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		253ADC502CB6B72500B1B021 /* Sliders in Frameworks */ = {isa = PBXBuildFile; productRef = 253ADC4F2CB6B72500B1B021 /* Sliders */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		253ADC302CB6AAAC00B1B021 /* Minimal-Metronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minimal-Metronome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253ADC502CB6B72500B1B021 /* Sliders in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Minimal-Metronome";
 			packageProductDependencies = (
+				253ADC4F2CB6B72500B1B021 /* Sliders */,
 			);
 			productName = "Minimal-Metronome";
 			productReference = 253ADC302CB6AAAC00B1B021 /* Minimal-Metronome.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 253ADC272CB6AAAC00B1B021;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				253ADC4E2CB6B72500B1B021 /* XCRemoteSwiftPackageReference "swiftui-sliders" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 253ADC312CB6AAAC00B1B021 /* Products */;
 			projectDirPath = "";
@@ -260,6 +269,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +335,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		253ADC4E2CB6B72500B1B021 /* XCRemoteSwiftPackageReference "swiftui-sliders" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-sliders";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		253ADC4F2CB6B72500B1B021 /* Sliders */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 253ADC4E2CB6B72500B1B021 /* XCRemoteSwiftPackageReference "swiftui-sliders" */;
+			productName = Sliders;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 253ADC282CB6AAAC00B1B021 /* Project object */;
 }
